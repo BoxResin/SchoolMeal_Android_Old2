@@ -5,13 +5,13 @@ apply plugin: 'com.minyushov.bintray'
 // Bintray 업로드 설정
 bintrayUpload {
 	// 패키지 정보
-	groupId = 'boxresin.android.core'
+	groupId = 'boxresin.android'
 	artifactId = 'core'
 	version = '0.2.0'
 
 	// Bintray 정보
 	repo = 'maven'
-	pkgName = "boxresin.android.core:core"
+	pkgName = "boxresin.android:core"
 	vcsUrl = 'https://github.com/BoxResin/AndroidCore.git'
 	license = 'MIT'
 
