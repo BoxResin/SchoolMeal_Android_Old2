@@ -1,0 +1,10 @@
+<!-- 색상 리소스 -->
+<resources>
+	<!-- 앱 색상 -->
+	<color name = "colorPrimary">#00BFA5</color>
+	<color name = "colorPrimaryDark">#008E76</color>
+	<color name = "colorAccent">#26a69a</color>
+
+	<!-- 앱 아이콘 배경 색상 -->
+	<color name = "ic_launcher_background">#FFFFFF</color>
+</resources>
