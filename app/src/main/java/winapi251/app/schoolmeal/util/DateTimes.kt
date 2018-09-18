@@ -60,10 +60,10 @@ class TimePoint private constructor(private val calendar: Calendar) : Comparable
 	companion object
 	{
 		/** 현재 시각을 [TimePoint]로 반환한다. */
-		fun now() = TimePoint(Calendar.getInstance())
+		val now get() = TimePoint(Calendar.getInstance())
 
 		/** 오늘 날짜에 해당하는 [시간점][TimePoint]을 반환한다. (년월일 = 0) */
-		fun today() = with(now()) { TimePoint(GregorianCalendar(year, month - 1, day)) }
+		val today get() = with(now) { TimePoint(GregorianCalendar(year, month - 1, day)) }
 	}
 }
 

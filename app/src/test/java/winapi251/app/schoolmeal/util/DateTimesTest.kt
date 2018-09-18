@@ -22,8 +22,8 @@ class DateTimesTest
 	fun timePointCompanion()
 	{
 		val calendar = Calendar.getInstance()
-		val now = TimePoint.now()
-		val today = TimePoint.today()
+		val now = TimePoint.now
+		val today = TimePoint.today
 
 		val year = calendar[Calendar.YEAR]
 		val month = calendar[Calendar.MONTH] + 1
