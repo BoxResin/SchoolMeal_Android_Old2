@@ -9,7 +9,7 @@ import winapi251.app.schoolmeal.util.TimePoint
  * @property lunch 점심
  * @property dinner 저녁
  */
-class DailyMeal(
+data class DailyMeal(
 		val date: TimePoint,
 		val breakfast: Meal? = null,
 		val lunch: Meal? = null,
