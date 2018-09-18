@@ -9,4 +9,7 @@ interface SchoolApi
 	 * @return 검색된 학교 목록
 	 */
 	suspend fun search(name: String): List<School>
+
+	// 기본 동작 설정
+	companion object : SchoolApi by MockSchoolApi
 }

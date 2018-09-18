@@ -10,4 +10,7 @@ interface MealApi
 	 * @return 지정한 날짜가 포함된 N일치 식단 정보
 	 */
 	suspend fun fetch(date: TimePoint): List<DailyMeal>
+
+	// 기본 동작 설정
+	companion object : MealApi by MockMealApi
 }
