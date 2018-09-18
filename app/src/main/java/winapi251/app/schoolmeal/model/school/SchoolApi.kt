@@ -8,5 +8,5 @@ interface SchoolApi
 	 * @param name 학교 이름
 	 * @return 검색된 학교 목록
 	 */
-	fun search(name: String): List<School>
+	suspend fun search(name: String): List<School>
 }
