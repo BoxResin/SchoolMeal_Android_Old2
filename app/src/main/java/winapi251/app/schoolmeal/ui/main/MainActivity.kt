@@ -1,7 +1,8 @@
-package winapi251.app.schoolmeal
+package winapi251.app.schoolmeal.ui.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import winapi251.app.schoolmeal.R
 
 /** 메인 액티비티 */
 class MainActivity : AppCompatActivity()
