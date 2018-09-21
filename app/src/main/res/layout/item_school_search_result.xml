@@ -1,0 +1,35 @@
+<!-- 학교 검색 결과 Item -->
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	xmlns:app = "http://schemas.android.com/apk/res-auto"
+	xmlns:tools = "http://schemas.android.com/tools"
+	android:layout_width = "match_parent"
+	android:layout_height = "wrap_content">
+
+	<!-- 학교 이름 -->
+	<androidx.appcompat.widget.AppCompatTextView
+		android:id = "@+id/txt_school_name"
+		style = "@style/TextAppearance.MaterialComponents.Headline6"
+		android:layout_width = "0dp"
+		android:layout_height = "wrap_content"
+		android:layout_marginLeft = "8dp"
+		android:layout_marginTop = "8dp"
+		android:layout_marginRight = "8dp"
+		app:layout_constraintLeft_toLeftOf = "parent"
+		app:layout_constraintRight_toRightOf = "parent"
+		app:layout_constraintTop_toTopOf = "parent"
+		tools:text = "선린인터넷고등학교"/>
+
+	<!-- 학교 주소 -->
+	<androidx.appcompat.widget.AppCompatTextView
+		android:id = "@+id/txt_school_address"
+		style = "@style/TextAppearance.MaterialComponents.Caption"
+		android:layout_width = "0dp"
+		android:layout_height = "wrap_content"
+		android:layout_marginBottom = "8dp"
+		app:layout_constraintBottom_toBottomOf = "parent"
+		app:layout_constraintLeft_toLeftOf = "@id/txt_school_name"
+		app:layout_constraintRight_toRightOf = "@id/txt_school_name"
+		app:layout_constraintTop_toBottomOf = "@id/txt_school_name"
+		tools:text = "서울특별시 용산구 원효로97길 33-4"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
