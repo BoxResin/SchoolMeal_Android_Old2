@@ -1,13 +1,14 @@
 package winapi251.app.schoolmeal.model.meal
 
 import winapi251.app.schoolmeal.model.meal.Allergy.*
+import winapi251.app.schoolmeal.model.school.School
 import winapi251.app.schoolmeal.util.TimePoint
 import winapi251.app.schoolmeal.util.days
 
 /** 가짜 식단 API */
 object MockMealApi : MealApi
 {
-	override suspend fun fetch(date: TimePoint): List<DailyMeal> = listOf(
+	override suspend fun fetch(date: TimePoint, school: School): List<DailyMeal> = listOf(
 			DailyMeal(date - 1.days,
 					breakfast = Meal(
 							listOf(
