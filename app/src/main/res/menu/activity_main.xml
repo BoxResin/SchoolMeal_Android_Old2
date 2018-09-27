@@ -7,7 +7,6 @@
 	<item
 		android:id = "@+id/action_search_school"
 		android:icon = "@drawable/ic_search_black_24dp"
-		android:title = "@string/search_school"
-		app:actionViewClass = "androidx.appcompat.widget.SearchView"
-		app:showAsAction = "collapseActionView|always"/>
+		android:title = "@string/action_search_school"
+		app:showAsAction = "always"/>
 </menu>

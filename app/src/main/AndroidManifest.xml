@@ -20,5 +20,8 @@
 				<category android:name = "android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
+
+		<!-- 학교 검색 액티비티 -->
+		<activity android:name = ".ui.schoolsearch.SchoolSearchActivity"/>
 	</application>
 </manifest>
