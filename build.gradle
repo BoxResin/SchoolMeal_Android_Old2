@@ -1,0 +1,17 @@
+apply plugin: 'kotlin'
+
+// 의존성
+dependencies {
+	// 로컬 JAR
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+	// 코틀린
+	implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.71'
+}
+
+compileKotlin {
+	kotlinOptions.jvmTarget = '1.7'
+}
+compileTestKotlin {
+	kotlinOptions.jvmTarget = '1.7'
+}
