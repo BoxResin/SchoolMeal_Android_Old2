@@ -1,0 +1,8 @@
+<!-- 안드로이드 매니페스트 -->
+<manifest
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	package = "boxresin.android.core">
+
+	<!-- 네트워크 상태 접근 권한 -->
+	<uses-permission android:name = "android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>
