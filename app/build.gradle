@@ -35,6 +35,10 @@ dependencies {
 	// 로컬 JAR
 	implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+	// 로컬 프로젝트
+	implementation project(':core')
+	implementation project(':android-core')
+
 	// 코틀린
 	implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 	implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:0.26.1'
